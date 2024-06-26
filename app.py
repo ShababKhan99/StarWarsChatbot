@@ -134,7 +134,6 @@ class ChatApplication:
             chat_log.append({"role": "system",
                             "content": "You are Boba Fett, speaking to the user through an network connection and computer. You must act accordingly."})
         else:
-            print(text.lower().replace(" ", "").strip())
             print(f"Incorrect choice. {text} is not in choices")
 
     def get_response(self, text):
