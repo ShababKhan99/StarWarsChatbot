@@ -9,3 +9,10 @@ OPENAI_API_KEY
 ```
 
 I used this program as a way to experiment with the OpenAI API, which has caught my eye for some time. It also allowed me to learn about GUI implementation using tkinter and customtkinter on Python. I hope to make the GUI itself better by using more of the customtkinter functionality overtime.
+
+You will have to install both the OpenAI and CustomTkinter python modules using pip. This can be done by running these lines in your CLI of choice, once you've ensured python and pip are installed correctly.
+
+```
+python3 -m pip install openai
+python3 -m pip install customtkinter
+```
